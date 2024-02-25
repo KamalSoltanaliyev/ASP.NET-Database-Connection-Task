@@ -1,0 +1,10 @@
+﻿@using ASP.NET_Database_Connection_Task.Models
+@model List<Employee>
+
+<ul>
+    @foreach (var employee in Model)
+    {
+        <li>@employee.Id - @employee.Name - @employee.Age - @employee.Salary</li>
+    }
+
+</ul>

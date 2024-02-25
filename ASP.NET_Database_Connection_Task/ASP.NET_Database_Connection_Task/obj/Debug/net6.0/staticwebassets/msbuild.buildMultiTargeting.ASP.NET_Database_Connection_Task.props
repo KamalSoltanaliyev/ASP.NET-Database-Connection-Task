@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ASP.NET_Database_Connection_Task.props" />
+</Project>
